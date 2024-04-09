@@ -13,7 +13,7 @@ xhttp.onreadystatechange = function(){
     console.log(datos);
     for (var i = 0; i < datos.length; i++){
           document.getElementById("librosEnLista").innerHTML +=
-          '<a href="' + datos[i].href + '"><img src="' + datos[i].imgsrc + '" alt="' + datos[i].alt + '" style="height:400px;"></a>';
+          '<a class="px-3" href="' + datos[i].href + '"><img src="' + datos[i].imgsrc + '" alt="' + datos[i].alt + '" style="height:400px;"></a>';
         }
   }
 }
