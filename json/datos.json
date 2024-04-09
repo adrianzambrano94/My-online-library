@@ -2,16 +2,21 @@
   {
     "href":"bibireader/bibi/?book=Diógenes (Juan Rivano).epub",
     "imgsrc":"./images/Diogenes.jpg",
-    "alt":"Diógenes"
+    "alt":"Diógenes."
   },
   {
     "href":"bibireader/bibi/?book=Los Siete Sabios (y tres más).epub",
     "imgsrc":"images/Los Siete Sabios (y tres más).jpg",
-    "alt":"Diógenes"
+    "alt":"Los Siete Sabios (y tres más)."
   },
   {
     "href":"bibireader/bibi/?book=No me tapes el sol Cómo ser un cínico de los buenos.epub",
     "imgsrc":"images/No me tapes el sol Cómo ser un cínico de los buenos.jpg",
-    "alt":"Diógenes"
+    "alt":"No me tapes el sol Cómo ser un cínico de los buenos."
+  },
+  {
+    "href":"bibireader/bibi/?book=Nacidos para correr - Christopher McDougall.epub",
+    "imgsrc":"images/Nacidos para correr - Christopher McDougall.jpg",
+    "alt":"Nacidos para correr."
   }
 ]
