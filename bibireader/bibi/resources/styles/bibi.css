@@ -28,7 +28,7 @@
  *  # Bibi Style                                                 (℠)
  *
  */*
- {color:blue;margin:0;padding:0;border:0;font-size:100%;font-weight:inherit;font-style:inherit}
+ {color:black;margin:0;padding:0;border:0;font-size:100%;font-weight:inherit;font-style:inherit;}
  
  li{list-style:none outside}
  
@@ -294,7 +294,7 @@ div#bibi-menu-l ul li.hover,div#bibi-menu-l ul li:active,div#bibi-menu-r ul li.h
 
 div#bibi-menu-l ul li .bibi-button span.bibi-button-label,div#bibi-menu-r ul li .bibi-button span.bibi-button-label{font-size:0;color:transparent}
 
-div#bibi-menu.hover div#bibi-menu-l ul,div#bibi-menu.hover div#bibi-menu-l ul.sticky,div#bibi-menu.hover div#bibi-menu-r ul,div#bibi-menu.hover div#bibi-menu-r ul.sticky,html.menu-opened div#bibi-menu-l ul,html.menu-opened div#bibi-menu-l ul.sticky,html.menu-opened div#bibi-menu-r ul,html.menu-opened div#bibi-menu-r ul.sticky,html.panel-opened div#bibi-menu-l ul,html.panel-opened div#bibi-menu-l ul.sticky,html.panel-opened div#bibi-menu-r ul,html.panel-opened div#bibi-menu-r ul.sticky,html.subpanel-opened div#bibi-menu-l ul,html.subpanel-opened div#bibi-menu-l ul.sticky,html.subpanel-opened div#bibi-menu-r ul,html.subpanel-opened div#bibi-menu-r ul.sticky,html.waiting div#bibi-menu-l ul,html.waiting div#bibi-menu-l ul.sticky,html.waiting div#bibi-menu-r ul,html.waiting div#bibi-menu-r ul.sticky,html:not(.book-full-height) div#bibi-menu-l ul,html:not(.book-full-height) div#bibi-menu-l ul.sticky,html:not(.book-full-height) div#bibi-menu-r ul,html:not(.book-full-height) div#bibi-menu-r ul.sticky{opacity:1}
+div#bibi-menu.hover div#bibi-menu-l ul,div#bibi-menu.hover div#bibi-menu-l ul.sticky,div#bibi-menu.hover div#bibi-menu-r ul,div#bibi-menu.hover div#bibi-menu-r ul.sticky,html.menu-opened div#bibi-menu-l ul,html.menu-opened div#bibi-menu-l ul.sticky,html.menu-opened div#bibi-menu-r ul,html.menu-opened div#bibi-menu-r ul.sticky,html.panel-opened div#bibi-menu-l ul,html.panel-opened div#bibi-menu-l ul.sticky,html.panel-opened div#bibi-menu-r ul,html.panel-opened div#bibi-menu-r ul.sticky,html.subpanel-opened div#bibi-menu-l ul,html.subpanel-opened div#bibi-menu-l ul.sticky,html.subpanel-opened div#bibi-menu-r ul,html.subpanel-opened div#bibi-menu-r ul.sticky,html.waiting div#bibi-menu-l ul,html.waiting div#bibi-menu-l ul.sticky,html.waiting div#bibi-menu-r ul,html.waiting div#bibi-menu-r ul.sticky,html:not(.book-full-height) div#bibi-menu-l ul,html:not(.book-full-height) div#bibi-menu-l ul.sticky,html:not(.book-full-height) div#bibi-menu-r ul,html:not(.book-full-height) div#bibi-menu-r ul.sticky{opacity:1; background-color: rgba(0,0,0,.5);}
 
 div#bibi-menu-l ul.bibi-buttongroup-tiled li:not(:first-child):not(:last-child) .bibi-button .bibi-button-iconbox .bibi-icon,div#bibi-menu-r ul.bibi-buttongroup-tiled li:not(:first-child):not(:last-child) .bibi-button .bibi-button-iconbox .bibi-icon{border-radius:0}
 
