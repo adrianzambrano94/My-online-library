@@ -1,0 +1,52 @@
+Aquí te dejo un script de Tampermonkey que realiza lo que solicitas:
+```
+// ==UserScript==
+// @name         Auto-cerrar pestañas
+// @namespace    (link unavailable)
+// @version      0.1
+// @description  Cierra pestañas después de 1 hora
+// @author       Tu nombre
+// @match        *://*/*
+// @grant        none
+// ==/UserScript==
+
+(function() {
+  'use strict';
+
+  // Configuración
+  var tiempoLimite = 60 * 60 * 1000; // 1 hora
+
+  // Función para cerrar pestañas
+  function cerrarPestana(tabId) {
+    chrome.tabs.remove(tabId);
+  }
+
+  // Función para iniciar temporizador
+  function iniciarTemporizador(tabId) {
+    setTimeout(function() {
+      cerrarPestana(tabId);
+    }, tiempoLimite);
+  }
+
+  // Escucha eventos de carga de pestañas
+  chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+    if (changeInfo.status === 'complete') {
+      iniciarTemporizador(tabId);
+    }
+  });
+
+  // Escucha eventos de creación de pestañas
+  chrome.tabs.onCreated.addListener(function(tab) {
+    iniciarTemporizador((link unavailable));
+  });
+})();
+```
+*Instrucciones de instalación:*
+
+1. Instala Tampermonkey en tu navegador.
+2. Crea un nuevo script en Tampermonkey.
+3. Pega el código anterior en el editor de scripts.
+4. Guarda el script.
+5. Recarga la página para que el script se active.
+
+*Nota:* Este script utiliza la API de Chrome para interactuar con las pestañas. Asegúrate de que estés utilizando un navegador compatible con Tampermonkey y la API de Chrome.
